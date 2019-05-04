@@ -5,7 +5,8 @@
 </template>
 <script>
 export default {
-    name: 'Todos'
+    name: 'Todos',
+    props: ['todos']
 }
 </script>
 
