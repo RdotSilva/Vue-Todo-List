@@ -43,6 +43,9 @@ export default {
     deleteTodo(id) {
       // Create and return new array with all todos EXCEPT todo that is clicked (deleted)
       this.todos = this.todos.filter(todo => todo.id !== id);
+    },
+    addTodo(newTodo) {
+      this.todos = [...this.todos, newTodo];
     }
   }
 }
